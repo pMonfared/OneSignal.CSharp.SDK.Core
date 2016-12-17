@@ -10,5 +10,5 @@ A General purpose rest ApiClient write in C# language for the OneSignal API
 PM> Install-Package OneSignal.CSharp.SDK.Core
 ```
 
-## OneSignal Api Oficial Documentation
+## OneSignal Api Official Documentation
 [OneSignal Server API] (https://documentation.onesignal.com/v2.0/docs/server-api-overview)
