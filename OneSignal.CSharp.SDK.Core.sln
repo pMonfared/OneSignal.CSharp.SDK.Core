@@ -1,16 +1,13 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 14
-VisualStudioVersion = 14.0.25420.1
+# Visual Studio 15
+VisualStudioVersion = 15.0.27004.2008
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{D13417C5-D34C-49A3-B11E-699B293BFB6B}"
-EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{196EF508-2EFC-4C02-B950-9D339942559A}"
-	ProjectSection(SolutionItems) = preProject
-		global.json = global.json
-	EndProjectSection
 EndProject
-Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "OneSignal.CSharp.SDK.Core", "src\OneSignal.CSharp.SDK.Core\OneSignal.CSharp.SDK.Core.xproj", "{C814CCAA-79E4-4070-8317-EB322E3AD6A7}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OneSignal.CSharp.SDK.Tests", "OneSignal.CSharp.SDK.Tests\OneSignal.CSharp.SDK.Tests.csproj", "{E3E97B56-0782-4230-BA81-F0703E67FC4F}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OneSignal.CSharp.SDK.Core", "OneSignal.CSharp.SDK.Core\OneSignal.CSharp.SDK.Core.csproj", "{E812C049-E295-4B85-861F-1791A4E0A5AF}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -18,15 +15,22 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{C814CCAA-79E4-4070-8317-EB322E3AD6A7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{C814CCAA-79E4-4070-8317-EB322E3AD6A7}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{C814CCAA-79E4-4070-8317-EB322E3AD6A7}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{C814CCAA-79E4-4070-8317-EB322E3AD6A7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E3E97B56-0782-4230-BA81-F0703E67FC4F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E3E97B56-0782-4230-BA81-F0703E67FC4F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E3E97B56-0782-4230-BA81-F0703E67FC4F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E3E97B56-0782-4230-BA81-F0703E67FC4F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E812C049-E295-4B85-861F-1791A4E0A5AF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E812C049-E295-4B85-861F-1791A4E0A5AF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E812C049-E295-4B85-861F-1791A4E0A5AF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E812C049-E295-4B85-861F-1791A4E0A5AF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
-	GlobalSection(NestedProjects) = preSolution
-		{C814CCAA-79E4-4070-8317-EB322E3AD6A7} = {D13417C5-D34C-49A3-B11E-699B293BFB6B}
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {99419100-99EC-4640-B5FC-032FE4213FC9}
+	EndGlobalSection
+	GlobalSection(CodealikeProperties) = postSolution
+		SolutionGuid = 2a632eb2-22f7-430a-9056-35704d5def0d
 	EndGlobalSection
 EndGlobal
