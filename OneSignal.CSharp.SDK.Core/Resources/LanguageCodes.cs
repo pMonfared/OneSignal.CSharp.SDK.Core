@@ -1,4 +1,4 @@
-﻿namespace OneSignal.CSharp.SDK.Resources
+﻿namespace OneSignal.CSharp.SDK.Core.Resources
 {
     /// <summary>
     /// Language codes constants for supported languages.

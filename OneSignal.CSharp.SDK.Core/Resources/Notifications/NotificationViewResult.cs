@@ -1,8 +1,7 @@
 ﻿using System.Collections.Generic;
 using Newtonsoft.Json;
-using RestSharp.Deserializers;
 
-namespace OneSignal.CSharp.SDK.Resources.Notifications
+namespace OneSignal.CSharp.SDK.Core.Resources.Notifications
 {
     /// <summary>
     /// Delivery and convert report result refered to single notification.

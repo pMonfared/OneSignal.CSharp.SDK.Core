@@ -1,6 +1,6 @@
 ﻿using Newtonsoft.Json;
 
-namespace OneSignal.CSharp.SDK.Resources.Notifications
+namespace OneSignal.CSharp.SDK.Core.Resources.Notifications
 {
     /// <summary>
     /// API Documentation: https://documentation.onesignal.com/docs/notifications-cancel-notification

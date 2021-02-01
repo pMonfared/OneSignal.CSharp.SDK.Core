@@ -1,7 +1,6 @@
-﻿using Newtonsoft.Json;
-using RestSharp.Deserializers;
+﻿using RestSharp.Deserializers;
 
-namespace OneSignal.CSharp.SDK.Resources.Notifications
+namespace OneSignal.CSharp.SDK.Core.Resources.Notifications
 {
     /// <summary>
     /// Result of notification cancel operation.
