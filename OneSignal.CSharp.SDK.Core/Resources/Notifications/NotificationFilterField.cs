@@ -1,7 +1,6 @@
 ﻿using Newtonsoft.Json;
-using Newtonsoft.Json.Converters;
 
-namespace OneSignal.CSharp.SDK.Resources.Notifications
+namespace OneSignal.CSharp.SDK.Core.Resources.Notifications
 {
     /// <summary>
     /// Complex type used to describe filter field.

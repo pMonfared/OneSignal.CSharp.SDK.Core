@@ -1,8 +1,8 @@
-﻿using Newtonsoft.Json;
-using System;
+﻿using System;
 using System.Collections.Generic;
+using Newtonsoft.Json;
 
-namespace OneSignal.CSharp.SDK.Resources.Devices
+namespace OneSignal.CSharp.SDK.Core.Resources.Devices
 {
     /// <summary>
     /// Options for adding new device to OneSignal app.

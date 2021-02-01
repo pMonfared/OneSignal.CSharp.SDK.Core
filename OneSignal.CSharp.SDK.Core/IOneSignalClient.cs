@@ -1,7 +1,7 @@
-﻿using OneSignal.CSharp.SDK.Resources.Notifications;
-using OneSignal.CSharp.SDK.Resources.Devices;
+﻿using OneSignal.CSharp.SDK.Core.Resources.Devices;
+using OneSignal.CSharp.SDK.Core.Resources.Notifications;
 
-namespace OneSignal.CSharp.SDK
+namespace OneSignal.CSharp.SDK.Core
 {
     /// <summary>
     /// OneSignal client interface.

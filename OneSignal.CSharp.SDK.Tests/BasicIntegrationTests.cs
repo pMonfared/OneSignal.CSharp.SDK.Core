@@ -1,16 +1,17 @@
 ﻿using System;
-using Microsoft.VisualStudio.TestTools.UnitTesting;
-using OneSignal.CSharp.SDK;
-using OneSignal.CSharp.SDK.Resources.Notifications;
 using System.Collections.Generic;
-using OneSignal.CSharp.SDK.Resources;
+using OneSignal.CSharp.SDK.Core;
+using OneSignal.CSharp.SDK.Core.Resources;
+using OneSignal.CSharp.SDK.Core.Resources.Notifications;
+using Xunit;
+using Xunit.Extensions.Ordering;
 
-namespace OneSignal_CSharp_SDK.Tests
+namespace OneSignal.CSharp.SDK.Tests
 {
-    [TestClass]
+    [Order(1)]
     public class BasicIntegrationTests
     {
-        [TestMethod]
+        [Fact,Order(1)]
         public void TestASimpleCall()
         {
             var client = new OneSignalClient(""); // Use your Api Key

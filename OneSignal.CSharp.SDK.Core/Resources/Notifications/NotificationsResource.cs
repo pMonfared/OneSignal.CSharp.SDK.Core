@@ -1,9 +1,9 @@
 ﻿using System;
 using System.Net;
-using OneSignal.CSharp.SDK.Serializers;
+using OneSignal.CSharp.SDK.Core.Serializers;
 using RestSharp;
 
-namespace OneSignal.CSharp.SDK.Resources.Notifications
+namespace OneSignal.CSharp.SDK.Core.Resources.Notifications
 {
     /// <summary>
     /// Class used to define resources needed for client to manage notifications.
@@ -32,7 +32,7 @@ namespace OneSignal.CSharp.SDK.Resources.Notifications
 
             restRequest.RequestFormat = DataFormat.Json;
             restRequest.JsonSerializer = new NewtonsoftJsonSerializer();
-            restRequest.AddBody(options);
+            restRequest.AddJsonBody(options);
 
             IRestResponse<NotificationCreateResult> restResponse = base.RestClient.Execute<NotificationCreateResult>(restRequest);
 

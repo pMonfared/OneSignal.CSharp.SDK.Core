@@ -1,8 +1,8 @@
 ﻿using System;
-using OneSignal.CSharp.SDK.Serializers;
+using OneSignal.CSharp.SDK.Core.Serializers;
 using RestSharp;
 
-namespace OneSignal.CSharp.SDK.Resources.Devices
+namespace OneSignal.CSharp.SDK.Core.Resources.Devices
 {
     /// <summary>
     /// Implementation of BaseResource, used to help client add or edit device.
@@ -31,7 +31,7 @@ namespace OneSignal.CSharp.SDK.Resources.Devices
 
             restRequest.RequestFormat = DataFormat.Json;
             restRequest.JsonSerializer = new NewtonsoftJsonSerializer();
-            restRequest.AddBody(options);
+            restRequest.AddJsonBody(options);
 
             var restResponse = base.RestClient.Execute<DeviceAddResult>(restRequest);
 
@@ -59,7 +59,7 @@ namespace OneSignal.CSharp.SDK.Resources.Devices
 
             restRequest.RequestFormat = DataFormat.Json;
             restRequest.JsonSerializer = new NewtonsoftJsonSerializer();
-            restRequest.AddBody(options);
+            restRequest.AddJsonBody(options);
 
             IRestResponse restResponse = base.RestClient.Execute(restRequest);
 

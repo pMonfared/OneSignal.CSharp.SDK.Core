@@ -1,4 +1,4 @@
-﻿namespace OneSignal.CSharp.SDK.Resources.Devices
+﻿namespace OneSignal.CSharp.SDK.Core.Resources.Devices
 {
     /// <summary>
     /// Test type enumeration.
